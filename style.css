@@ -1,3 +1,45 @@
 body {
-    background-color: red;
+    padding: 0%;
+    margin: 0%;
+    background-color: gainsboro;
+    font-family: 'Roboto', sans-serif;
+}
+
+.root-con {
+    display: flex;
+}
+
+.split-left {
+    padding: 10px;
+    flex: 30%;
+    
+
+    width: 30%;
+}
+.split-right {
+    padding: 10px;
+    flex: 60%;
+
+    width: 69%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.line {
+    width: 100%;
+    background-color: grey;
+    height: 1px;
+}
+
+.exp-title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.exp-desc {
+
+}
+
+.exp-bullet {
+
 }
